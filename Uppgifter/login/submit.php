@@ -13,6 +13,10 @@
 	
 	if($row = mysqli_fetch_array($result)){
 		
+		echo "Logged in successfully!";
 		
+	}
+	else{
+		echo "Failed to login, wrong name or password";
 	}
 ?>
