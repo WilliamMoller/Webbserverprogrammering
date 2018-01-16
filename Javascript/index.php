@@ -1,12 +1,16 @@
 <!doctype html>
 <html>
 	<head>
-	
-	
+		<title> Javascript </title>
 	</head>
-	<body>
 	
+	<script>
+		function meddelande(){
+			alert("HALLOJ");
+		}
+	
+	</script>
+	<body>
+		<button onClick="meddelande()"> uppgift 1 </button>
 	</body>
-
-
 </html>
